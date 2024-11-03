@@ -7,24 +7,17 @@ public class Payment {
     private Date date;
     private String utrid;
     private String Status;
-    private static Double limitCheckAmount=0.0;
-    private static int noofSuccesfulPayments=0;
 
-    public static int getNoofSuccesfulPayments() {
-        return noofSuccesfulPayments;
+    private Double amount;
+
+    public Double getAmount() {
+        return amount;
     }
 
-    public static void setNoofSuccesfulPayments(int noofSuccesfulPayments) {
-        Payment.noofSuccesfulPayments = noofSuccesfulPayments;
+    public void setAmount(Double amount) {
+        this.amount = amount;
     }
 
-    public static Double getLimitCheckAmount() {
-        return limitCheckAmount;
-    }
-
-    public static void setLimitCheckAmount(Double limitCheckAmount) {
-        Payment.limitCheckAmount = limitCheckAmount;
-    }
 
     public String getTransactionid() {
         return transactionid;

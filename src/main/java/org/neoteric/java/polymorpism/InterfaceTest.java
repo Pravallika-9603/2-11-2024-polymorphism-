@@ -21,8 +21,6 @@ public class InterfaceTest {
 
         System.out.println("to acc"+PhnpayTransfer.accountBalanceMap.get("9876543210"));
 
-        //Payment pay4=payment.transfer("1234567890","9876543210",50.0);
-        //Payment pay5=payment.transfer("1234567890","9876543210",10.0);
-        //Payment pay9=payment.transfer("1234567890","9876543210",1.0);
+
     }
 }

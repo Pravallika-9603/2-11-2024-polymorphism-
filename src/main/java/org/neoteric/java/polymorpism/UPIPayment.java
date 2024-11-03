@@ -10,7 +10,5 @@ public interface UPIPayment {
 
     int i=10;
     Payment transfer(String frommobileNo, String toNumber, Double amount);
-   // boolean limitcheck(String frommobileNo,Double amount);
-    boolean limitcheckByNoOfPayments(String frommobileNo);
-    boolean phnnoCheck(String frommobileNo);
+
 }
